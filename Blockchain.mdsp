@@ -1,0 +1,95 @@
+[Project]
+name=Blockchain
+type=0
+defaultConfig=0
+
+[Debug]
+// compiler 
+workingDirectory=
+arguments=
+intermediateFilesDirectory=Debug
+outputFilesDirectory=Debug
+compilerPreprocessor=
+extraCompilerOptions=
+compilerIncludeDirectory=
+noWarning=0
+defaultWarning=0
+allWarning=1
+extraWarning=0
+isoWarning=0
+warningsAsErrors=0
+debugType=1
+debugLevel=2
+exceptionEnabled=1
+runtimeTypeEnabled=1
+optimizeLevel=0
+
+// linker
+libraryPath=
+outputFilename=Debug\Blockchain.exe
+libraries=
+extraLinkerOptions=
+ignoreStartupFile=0
+ignoreDefaultLibs=0
+stripExecutableFile=0
+
+// archive
+extraArchiveOptions=
+
+//resource
+resourcePreprocessor=
+resourceIncludeDirectory=
+extraResourceOptions=
+
+[Release]
+// compiler 
+workingDirectory=
+arguments=
+intermediateFilesDirectory=Release
+outputFilesDirectory=Release
+compilerPreprocessor=
+extraCompilerOptions=
+compilerIncludeDirectory=
+noWarning=0
+defaultWarning=0
+allWarning=1
+extraWarning=0
+isoWarning=0
+warningsAsErrors=0
+debugType=0
+debugLevel=0
+exceptionEnabled=1
+runtimeTypeEnabled=1
+optimizeLevel=2
+
+// linker
+libraryPath=
+outputFilename=Release\Blockchain.exe
+libraries=
+extraLinkerOptions=
+ignoreStartupFile=0
+ignoreDefaultLibs=0
+stripExecutableFile=1
+
+// archive
+extraArchiveOptions=
+
+//resource
+resourcePreprocessor=
+resourceIncludeDirectory=
+extraResourceOptions=
+
+[Source]
+1=Blockchain.cpp
+2=sha256.cpp
+[Header]
+1=sha256.h
+[Resource]
+[Other]
+1=Block 1.txt
+2=Block 2.txt
+3=Output.txt
+[History]
+Block 1.txt,261966
+sha256.cpp,0
+Blockchain.cpp,1430
